@@ -1,0 +1,16 @@
+.DS_Store
+._*
+Thumbs.db
+
+# Common generated LaTeX/build artifacts.
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
