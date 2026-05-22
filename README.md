@@ -4,7 +4,7 @@ Piter Garcia | Instructional Strategies for Inclusive Classrooms C | Summer A 20
 
 This repository is the versioned workspace for ED452C course materials, discussion work, assignment planning, and portfolio-ready evidence. It follows the same portfolio logic used across the broader teacher-preparation repositories: course artifacts are not isolated one-off submissions; they are puzzle pieces that can later be assembled into a coherent certification portfolio.
 
-The GitHub repository is private right now, but the documentation is written with a public-safe discipline: no raw student records, no identifiable placement details, and no Blackboard-only content copied beyond the student's own drafts and notes.
+The documentation is written with a public-safe discipline regardless of repository visibility: no raw student records, no identifiable placement details, and no Blackboard-only content copied beyond the student's own drafts and notes.
 
 ## Start here
 
