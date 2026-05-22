@@ -11,6 +11,7 @@
 - Used authenticated GitHub access to confirm `pzg8794/teaching-placement` is private and available on default branch `teaching_placement_shared`.
 - Used TeachingPlacement, EDE498C, ED452B, EDU442, and ED400 repository context to personalize the Session 2 discussion post and documentation.
 - Drafted a Blackboard-ready Session 2 discussion post.
+- Replaced the first draft with the finalized Blackboard-ready version, including the equity framing about digital tools, Tier 1 noticing routines, and the final discussion question.
 - Created documentation files for future portfolio tracking.
 
 ### Decisions made

@@ -26,6 +26,7 @@ Inclusive teaching requires designing access, participation, and assessment from
 
 - AI use was framed as an equity dilemma involving disability/neurodivergence, language load, technology access, privacy, and student authorship.
 - The classroom routine Ask -> Check -> Choose -> Change -> Explain supported student agency and visible thinking.
+- The final Session 2 post names Minecraft and AI tools as non-neutral learning environments that can assume prior technology access, language confidence, and comfort with trial-and-error work.
 
 ### ED452B / EDE498C Minecraft unit work
 
@@ -52,3 +53,4 @@ This discussion post can support later portfolio writing on:
 - assessment
 - professional reflection
 - technology-supported inclusive instruction
+- Tier 1 routines that help teachers notice the difference between linguistic, executive-function, identity-based, and prior-technology-experience barriers
