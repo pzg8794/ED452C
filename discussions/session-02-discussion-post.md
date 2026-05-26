@@ -1,4 +1,9 @@
-# Session 2 Discussion Post
+# Session 2 — Discussion Post
+
+**Course:** ED452C  
+**Theme:** Inclusion as Design, Not Placement
+
+---
 
 Wehmeyer and Kurth helped me reframe inclusion as a design responsibility, not just a placement decision. A student can be physically present in a general education classroom and still be excluded from the real learning if the task, language, routines, tools, or assessment only work for a narrow kind of learner. That distinction matters because it shifts the question from “What is wrong with the student?” to “What barriers in the learning environment are preventing the student from showing what they know?”
 
@@ -6,8 +11,6 @@ This connects directly to my Pine Brook IGNITE placement. In the Grade 4 Minecra
 
 This also raises an equity question for me. Digital tools like Minecraft or AI platforms are not neutral. They often assume certain kinds of prior experience, language confidence, cultural familiarity with school-based technology tasks, and comfort with trial-and-error learning. If those assumptions go unnoticed, students whose identities or experiences do not match the “default” user may be treated as less capable, even when the problem is really the design of the task.
 
-I saw the same idea in my AI-supported learning work from EDU442. Students need routines that protect their thinking and authorship while also giving them access to planning, revision, and language support. The routine **Ask → Check → Choose → Change → Explain** is useful because it does not treat the tool as an answer machine. It gives students a structure for making choices, explaining those choices, and staying visible as thinkers. At Tier 1, noticing students’ needs could come through quick conferences, watching where students get stuck, reviewing work samples, or using exit tickets that ask students what helped them participate and what still blocked them.
+I saw the same idea in my AI-supported learning work. Students need routines that protect their thinking and authorship while also giving them access to planning, revision, and language support. The routine Ask → Check → Choose → Change → Explain is useful because it does not treat the tool as an answer machine. It gives students a structure for making choices, explaining those choices, and staying visible as thinkers. At Tier 1, noticing students’ needs could come through quick conferences, watching where students get stuck, reviewing work samples, or using exit tickets that ask students what helped them participate and what still blocked them.
 
-For my larger puzzle plan, this reading helps me see each course artifact as one piece of evidence about how I design for students’ strengths before they fail, not only after a problem appears.
-
-**My question is: In a Minecraft or AI-supported lesson, what would it look like to design a strengths-based launch routine that supports the whole class while still helping the teacher notice whether a student’s barrier is linguistic, executive-function related, identity-based, or tied to limited prior technology experience?**
+**My question is:** In a Minecraft or AI-supported lesson, what would it look like to design a strengths-based launch routine that supports the whole class while still helping the teacher notice whether a student’s barrier is linguistic, executive-function related, identity-based, or tied to limited prior technology experience?
