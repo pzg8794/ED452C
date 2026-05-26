@@ -11,9 +11,24 @@ Current visible materials:
 - `sessions/`
   - `ED452C SumA26 Session 1.pdf`
   - `ED452C SumA26 Session 2.pdf`
+  - `NSTTAC Indicator 13 Checklist (3).pdf`
+  - `OSERS Guide to Transition (4).pdf`
+  - `Self-Determination (Wehmeyer and Shogren, 2013).pdf`
   - `Session 1 Readings.pdf`
+  - `Session 10 Readings.pdf`
+  - `Session 11 Readings.pdf`
+  - `Session 12 Readings.pdf`
   - `Session 2 Readings.pdf`
+  - `Session 3 Readings.pdf`
+  - `Session 4 Readings.pdf`
+  - `Session 5 Readings.pdf`
+  - `Session 6 Readings.pdf`
+  - `Session 7 Readings.pdf`
+  - `Session 8 Readings.pdf`
+  - `Session 9 Readings.pdf`
   - `Wehmeyer & Kurth 2021 p. 1-6.pdf`
+  - `Wehmeyer & Kurth 2021 p. 7-14.pdf`
+  - `Wehmeyer & Kurth 2021 p. 15-26.pdf`
 - `ED452C SumA26 Syllabus.docx.pdf`
 
 ## Immediate Blackboard work identified
@@ -22,7 +37,13 @@ Current visible materials:
 
 Prompt: Respond to the assigned reading with one substantial comment or question as a discussion post. The prompt says the post is due on Blackboard the day before class.
 
-Status: drafted in `discussions/session-02-discussion-post.md`.
+Status: present in `discussions/session-02-discussion-post.md`; submission not verified in this repo.
+
+### Session 3 Discussion Post
+
+Prompt: Respond to the assigned reading with one substantial comment or question as a discussion post.
+
+Status: present in `discussions/session-03-discussion-post.md`; submission not verified in this repo.
 
 ## Related repositories used for enrichment
 

@@ -1,5 +1,20 @@
 # ED452C Work Log
 
+## 2026-05-26 - Sync remote posts and local reading materials
+
+### Work completed
+
+- Pulled the latest `origin/main` commits into local `main`.
+- Brought in remote documentation/discussion updates, including `discussions/session-03-discussion-post.md` and `docs/readings-summary-discussions-1-3.md`.
+- Added local Session 3-12 reading packets and supplemental transition/self-determination PDFs under `sessions/`.
+- Normalized untracked local filenames before committing by removing extra spaces before `.pdf` and correcting `Wehymeyer` to `Wehmeyer` in the Session 3 Wehmeyer/Kurth file.
+- Updated `docs/course-map.md`, `docs/discussion-log.md`, and `docs/source-map.md` so the repository documentation matches the current file tree.
+
+### Decisions made
+
+- Preserve the actual reading PDFs in `sessions/` and keep interpretation/summaries in `docs/`.
+- Mark discussion posts as present/finalized only when visible in the repo; do not mark Blackboard submission as verified without direct evidence.
+
 ## 2026-05-21 - Session 2 discussion and repo documentation
 
 ### Work completed

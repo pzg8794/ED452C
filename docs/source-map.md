@@ -84,3 +84,4 @@ Reusable patterns for ED452C:
 | ED452C artifact | Source families used | Notes |
 |---|---|---|
 | `discussions/session-02-discussion-post.md` | Wehmeyer & Kurth Session 2 reading; TeachingPlacement Grade 4 Minecraft profile/evidence notes; ED452B/EDE498C Minecraft unit; EDU442 AI PD routine; ED400 portfolio map | Final version uses de-identified placement patterns, equity framing about digital tools, and Tier 1 noticing routines. |
+| `discussions/session-03-discussion-post.md` | Wehmeyer & Kurth/person-environment fit; Pine Brook IGNITE squishy circuits/model airplane and AI brainstorming placement patterns | Present from remote update. Source trail should be verified against TeachingPlacement before public portfolio reuse. |
