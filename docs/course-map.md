@@ -29,6 +29,12 @@ Current visible materials:
   - `Wehmeyer & Kurth 2021 p. 1-6.pdf`
   - `Wehmeyer & Kurth 2021 p. 7-14.pdf`
   - `Wehmeyer & Kurth 2021 p. 15-26.pdf`
+  - `Wehmeyer & Kurth 2021 p. 41-46.pdf`
+  - `Wehmeyer & Kurth 2021 p. 47-56.pdf`
+- `transcripts/`
+  - `2026-05-26 Lecture_ Classroom Management and Least Restrictive Environment-transcript.txt`
+  - `2026-05-26 Lecture_ Special Education, LRE, and Behavior Management-transcript.txt`
+  - `2026-05-26 Workshop_ Specific Praise, Four-to-One Feedback Ratio, and Growth Mindset in Classroom Practice-transcript.txt`
 - `ED452C SumA26 Syllabus.docx.pdf`
 
 ## Immediate Blackboard work identified
@@ -44,6 +50,18 @@ Status: present in `discussions/session-02-discussion-post.md`; submission not v
 Prompt: Respond to the assigned reading with one substantial comment or question as a discussion post.
 
 Status: present in `discussions/session-03-discussion-post.md`; submission not verified in this repo.
+
+### Session 4 Discussion Post
+
+Prompt: Respond to the assigned reading with one substantial comment or question as a discussion post.
+
+Status: present in `discussions/session-04-discussion-post.md`; submission not verified in this repo.
+
+### Session 5 Discussion Post
+
+Prompt: Respond to the assigned reading with one substantial comment or question as a discussion post.
+
+Status: present in `discussions/session-05-discussion-post.md`; submission not verified in this repo.
 
 ## Related repositories used for enrichment
 

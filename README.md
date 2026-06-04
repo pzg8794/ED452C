@@ -21,6 +21,7 @@ The documentation is written with a public-safe discipline regardless of reposit
 ED452C/
 ├── assignments/                 # Course assignment directions and rubrics
 ├── sessions/                    # Session slide decks and assigned readings
+├── transcripts/                 # Course-session transcript notes
 ├── discussions/                 # Student-created weekly discussion posts
 ├── docs/                        # Course maps, discussion tracker, process notes
 ├── portfolio/                   # Portfolio-facing synthesis and evidence maps

@@ -85,3 +85,13 @@ Reusable patterns for ED452C:
 |---|---|---|
 | `discussions/session-02-discussion-post.md` | Wehmeyer & Kurth Session 2 reading; TeachingPlacement Grade 4 Minecraft profile/evidence notes; ED452B/EDE498C Minecraft unit; EDU442 AI PD routine; ED400 portfolio map | Final version uses de-identified placement patterns, equity framing about digital tools, and Tier 1 noticing routines. |
 | `discussions/session-03-discussion-post.md` | Wehmeyer & Kurth/person-environment fit; Pine Brook IGNITE squishy circuits/model airplane and AI brainstorming placement patterns | Present from remote update. Source trail should be verified against TeachingPlacement before public portfolio reuse. |
+| `discussions/session-04-discussion-post.md` | Wehmeyer & Kurth strengths-based design, MTSS, UDL, self-determination; Pine Brook IGNITE Lego sail car lesson | Present from remote update. Uses de-identified placement pattern about agency being cut when the redesign phase disappears. |
+| `discussions/session-05-discussion-post.md` | Wehmeyer & Shogren self-determination theory; Pine Brook IGNITE AI brainstorming lesson | Present from remote update. Uses de-identified placement pattern about choice, simplification, and causal agency during AI-supported planning. |
+
+## Course Transcript Log
+
+| Transcript file | Local use |
+|---|---|
+| `transcripts/2026-05-26 Lecture_ Classroom Management and Least Restrictive Environment-transcript.txt` | Course-session evidence for LRE/classroom-management framing. |
+| `transcripts/2026-05-26 Lecture_ Special Education, LRE, and Behavior Management-transcript.txt` | Course-session evidence for special education, LRE, and behavior-management framing. |
+| `transcripts/2026-05-26 Workshop_ Specific Praise, Four-to-One Feedback Ratio, and Growth Mindset in Classroom Practice-transcript.txt` | Course-session evidence for praise ratio, growth mindset, and classroom-practice reflection. |

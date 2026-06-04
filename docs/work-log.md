@@ -1,5 +1,21 @@
 # ED452C Work Log
 
+## 2026-06-03 - Sync remote posts and local June materials
+
+### Work completed
+
+- Removed stray zero-byte Finder `Icon` metadata files from `.git`, `sessions/`, and `transcripts/` after they broke Git ref/history commands.
+- Pulled the latest `origin/main` into local `main`, bringing in Session 4 and Session 5 discussion posts and reading-summary updates.
+- Added local Wehmeyer/Kurth reading PDFs for pages 41-46 and 47-56.
+- Added local May 26 course transcript files under `transcripts/`.
+- Normalized the untracked local `Wehymeyer` filename to `Wehmeyer` before staging.
+- Updated `README.md`, `docs/course-map.md`, `docs/discussion-log.md`, and `docs/source-map.md` so repository documentation matches the current file tree.
+
+### Decisions made
+
+- Keep new course transcripts in `transcripts/` and track their provenance in `docs/source-map.md`.
+- Continue marking Blackboard submission status only when independently verified.
+
 ## 2026-05-26 - Sync remote posts and local reading materials
 
 ### Work completed
