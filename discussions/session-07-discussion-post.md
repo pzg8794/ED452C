@@ -1,0 +1,14 @@
+# Session 7 — Discussion Post
+
+**Course:** ED452C  
+**Theme:** Inclusive Assessment, Progress Monitoring, and Responsive Adjustment
+
+---
+
+I felt that the readings deepened the shift from structural access to ongoing inclusive instructional cycles; how educators monitor, adjust, and extend learning in ways that honor student competence. The authors emphasize the importance of progress monitoring that is aligned to grade-level goals, the use of formative assessment practices that reveal student thinking, and collaborative problem-solving with families and specialists to support sustained participation. They argue that inclusion must be dynamic: students should not only be present and supported at the start of a lesson, but also supported in ways that surface their hidden strengths, adjust when barriers appear, and build toward self-determination and agency over time. This connects with earlier themes of Universal Design for Learning but pushes it into assessment and reflection.
+
+This focus on inclusive assessment and adjustment reminded me of moments during my teaching placement at Pine Brook Elementary, in which I found myself reviewing student work after hands-on STEM lessons. Some students had completed the task quickly, while others produced responses that looked unfinished. Rather than interpreting pace as competence, I found myself asking what each student’s product revealed about their thinking. Going back to those small-group check-ins, I remember that students who had been quiet during instruction often articulated deep reasoning when given a structured reflection prompt or when the task was reframed in their own language. This made me realize that inclusive instruction is also about how we read and respond to student evidence so that we can adjust instruction in real time and plan steps that honor the learner.
+
+I also saw a parallel with the work I’ve been doing around equitable use of AI tools. When students used idea generators during brainstorming, those who struggled initially sometimes revealed rich conceptual connections once the tool was reframed as a thinking partner and the prompts were co-constructed. Without that reframing and the follow-up conversations, assessment would have missed those students’ strengths entirely. Wehmeyer and Kurth confirmed my belief that inclusive assessment must be transparent, connected to student goals, and flexible enough to accommodate multiple modes of expression. For students who are neurodivergent, multilingual, or navigating complex identity and access needs, this means that assessments should be designed to capture what they can do in contexts that reduce barriers and honor variability.
+
+My question is: How can teachers build assessment and adjustment routines into everyday instruction so that formative feedback, evidence of student thinking, and next-step planning are themselves inclusive practices?
