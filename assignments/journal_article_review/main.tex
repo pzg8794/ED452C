@@ -1,6 +1,6 @@
-\documentclass[10.5pt]{article}
+\documentclass[11pt]{article}
 
-\usepackage[margin=0.55in, top=0.5in, bottom=0.5in]{geometry}
+\usepackage[margin=0.6in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
@@ -8,6 +8,7 @@
 \usepackage{booktabs}
 \usepackage{enumitem}
 \usepackage{hyperref}
+\usepackage{longtable}
 \usepackage{parskip}
 \usepackage{ragged2e}
 \usepackage{setspace}
@@ -28,97 +29,152 @@
 
 \hypersetup{colorlinks=true,linkcolor=black,urlcolor=black,citecolor=black}
 \setlength{\parindent}{0pt}
-\setstretch{1.06}
+\setstretch{1.12}
 \newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
 \newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
-\setlist[itemize]{topsep=1pt,itemsep=0pt,parsep=0pt,partopsep=0pt,leftmargin=1.2em}
-\setlist[enumerate]{topsep=1pt,itemsep=1pt,parsep=0pt,partopsep=0pt,leftmargin=1.3em}
-\titleformat{\section}{\normalsize\bfseries\color{PrimaryRed}}{}{0em}{}[\vspace{-4pt}]
-\titlespacing{\section}{0pt}{5pt}{2pt}
+\setlist[itemize]{topsep=2pt,itemsep=1pt,parsep=0pt,partopsep=0pt,leftmargin=1.2em}
+\setlist[enumerate]{topsep=2pt,itemsep=2pt,parsep=0pt,partopsep=0pt,leftmargin=1.3em}
+\titleformat{\section}{\large\bfseries\color{PrimaryRed}}{}{0em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
 
 \newtcolorbox{ReflectionBox}{
-  colback=SoftPurple, colframe=PrimaryRed, boxrule=0.7pt, arc=2mm,
-  left=1.5mm, right=1.5mm, top=1mm, bottom=1mm
+  colback=SoftPurple,
+  colframe=PrimaryRed,
+  boxrule=0.8pt,
+  arc=2mm,
+  left=1.5mm,
+  right=1.5mm,
+  top=1.2mm,
+  bottom=1.2mm
 }
+
 \newtcolorbox{TakeawayBox}{
-  colback=SoftGreen, colframe=DarkGray, boxrule=0.5pt, arc=2mm,
-  left=1.5mm, right=1.5mm, top=0.8mm, bottom=0.8mm
+  colback=SoftGreen,
+  colframe=DarkGray,
+  boxrule=0.6pt,
+  arc=2mm,
+  left=1.5mm,
+  right=1.5mm,
+  top=1mm,
+  bottom=1mm
 }
 
 \begin{document}
 
-% ── HEADER ──────────────────────────────────────────────────────────────
+\begin{titlepage}
+\newgeometry{margin=0.7in}
+\thispagestyle{empty}
+
 \begin{center}
-{\small University of Rochester \textbf{·} Warner School of Education \textbf{·} ED452C}\\[2pt]
-{\color{PrimaryRed}\rule{\textwidth}{1.2pt}}\\[3pt]
-{\large\bfseries Journal Article Review: Social-Emotional Learning, Classroom Climate, and Inclusive Design}\\[1pt]
-{\small\itshape An Evidence-Based Reflection on the RULER Approach to SEL}\\[2pt]
-{\color{PrimaryRed}\rule{0.72\textwidth}{0.6pt}}\\[3pt]
-\footnotesize
-\begin{tabular}{@{}r@{\ }l@{\quad}r@{\ }l@{}}
-  \textbf{Student:} & Piter Zacari Garcia Bautista &
-  \textbf{Course:} & ED452C \\
-  \textbf{Assignment:} & Journal Article Review --- SEL / PBIS &
-  \textbf{Date:} & \today \\
+{\large University of Rochester\\}
+{\normalsize Warner School of Education\\[0.15in]}
+
+{\color{PrimaryRed}\rule{\textwidth}{1.4pt}}\\[0.12in]
+{\huge\bfseries Journal Article Review\\[0.08in]
+\Huge Social-Emotional Learning,\\[0.08in]
+Classroom Climate, and Inclusive Design}\\[0.18in]
+{\Large An Evidence-Based Reflection on the RULER Approach to SEL}\\[0.12in]
+{\color{PrimaryRed}\rule{0.78\textwidth}{0.7pt}}\\[0.22in]
+
+\colorbox{SoftBlue}{%
+\parbox{0.88\textwidth}{%
+\centering\small\vspace{0.02in}
+\textbf{From Individual Skill-Building to Environment-Level Change}\\[0.05in]
+Examining how a randomized controlled trial on the RULER SEL approach connects to inclusive, neurodiversity-affirming, and trauma-responsive classroom practice---and to my own lived experience as a Dominican immigrant navigating ADHD, chronic illness, and neurodivergence in educational systems.
+}%
+}
+\end{center}
+
+\vspace{0.12in}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.18}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{>{\bfseries\RaggedLeft}p{1.65in} p{4.9in}}
+Student         & Piter Zacari Garcia Bautista \\
+Course          & ED452C \\
+Assignment      & Journal Article Review --- SEL / PBIS \\
+Focus           & Social-emotional learning as an inclusive, environment-level intervention for neurodivergent, CLD, chronically ill, and multiply-identified students \\
+Lens            & Puzzle Plan \& EQUITAS frameworks for equity-centered, neurodiversity-affirming practice \\
+Submission Date & \today \\
 \end{tabular}
 \end{center}
-\vspace{2pt}
 
-% ── GUIDING CLAIM ───────────────────────────────────────────────────────
+\vspace{0.12in}
+
+\begin{center}
+\begin{minipage}{0.92\textwidth}
+\centering\footnotesize
+\itshape
+Joy-oriented literacy is not extra. It is part of access. When students feel capable, connected, and allowed to participate as themselves, literacy becomes a tool for liberation, self-determination, and empowerment.
+{\color{PrimaryRed}\rule{4in}{0.5pt}}
+\end{minipage}
+\end{center}
+
+\begin{center}
+\begin{minipage}{1.0\textwidth}
+\textbf{Abstract \& Framework Context}\\[-0.03in]
+This journal article review examines Rivers, Brackett, Reyes, Elbertson, and Salovey (2013), an empirical clustered randomized controlled trial published in \textit{Prevention Science} that tested the RULER Approach to social-emotional learning (SEL) in upper-elementary classrooms across a large urban district. The study found that RULER classrooms showed significantly warmer teacher--student relationships, greater student autonomy, and stronger teacher responsiveness to student interests compared to control classrooms. This review summarizes the study's methods, findings, and implications while reflecting on what the evidence means for inclusive classrooms serving neurodivergent, culturally and linguistically diverse (CLD), chronically ill, trauma-experienced, and multiply identified students. These findings are read through the Puzzle Plan and EQUITAS frameworks, which emerge from lived experience as a Dominican immigrant with ADHD, chronic illness, and neurodivergent identity. From that lens, RULER matters because it shows that SEL is not a soft add-on or isolated skill lesson; it is an environment-level intervention that can reshape classroom climate, belonging, equity, and access (Rivers et al., 2013).
+\end{minipage}
+\end{center}
+
+\restoregeometry
+\end{titlepage}
+\clearpage
+
+{\LARGE\bfseries\color{PrimaryRed} Journal Article Review and Reflection\par}
+
 \begin{ReflectionBox}
-\footnotesize\textbf{Guiding claim:} A well-implemented SEL program does not merely teach students to manage feelings---it redesigns the relational environment so that neurodivergent, CLD, chronically ill, trauma-experienced, and multiply identified students can access learning without first performing neurotypicality as the price of belonging. This is the gap the Puzzle Plan closes, and the standard EQUITAS holds every classroom system to.
+\textbf{Guiding claim.} A social-emotional learning program does not merely teach students to manage feelings. When implemented at the classroom level, it changes the relational and emotional environment so that students with neurodivergent profiles, chronic illness, trauma histories, and multiple marginalized identities can access learning without having to first perform neurotypicality or emotional control as the price of belonging (Rivers et al., 2013). This is precisely the gap the Puzzle Plan is designed to close---and the standard the EQUITAS framework holds every classroom system accountable to (Garcia Bautista, 2025).
 \end{ReflectionBox}
-\vspace{2pt}
 
-% ── CITATION ────────────────────────────────────────────────────────────
-\section{Article}
-\footnotesize
-Rivers, S.\ E., Brackett, M.\ A., Reyes, M.\ R., Elbertson, N.\ A., \& Salovey, P.\ (2013). Improving the social and emotional climate of classrooms: A clustered randomized controlled trial testing the RULER Approach. \textit{Prevention Science, 14}(1), 77--87. \url{https://doi.org/10.1007/s11121-012-0305-2}
+\section{Summary of Key Information}
 
-% ── SUMMARY ─────────────────────────────────────────────────────────────
-\section{Summary}
-\footnotesize
-\textbf{Purpose:} Tested whether the RULER Approach to SEL (Yale Center for Emotional Intelligence) could improve the observed social-emotional climate of upper-elementary classrooms in a large urban district (Rivers et al., 2013). RULER embeds emotional recognition, labeling, expression, and regulation into existing content---mirroring the Puzzle Plan's design-not-extract principle.
+This empirical study examined whether the RULER Approach to SEL could improve the observed social and emotional climate of upper-elementary classrooms in a large urban district. The RULER Approach was developed at the Yale Center for Emotional Intelligence and provides teachers with tools, language, and instructional routines for integrating emotional recognition, understanding, labeling, expression, and regulation into daily academic instruction (Rivers et al., 2013). The program is designed to be embedded into existing content rather than delivered as a stand-alone curriculum period---an approach that mirrors the Puzzle Plan: not as an intervention extracted from real life, but as the architecture of everyday learning.
 
-\textbf{Design \& sample:} Clustered randomized controlled trial; 62 schools randomly assigned to RULER (5th--6th grade ELA) or business-as-usual control; hierarchical linear modeling accounted for student-classroom-school nesting (Rivers et al., 2013).
+\textbf{Design \& sample:} The study used a clustered randomized controlled trial, one of the strongest experimental designs available for educational research (Rivers et al., 2013). Sixty-two schools were randomly assigned to either implement RULER in their fifth- and sixth-grade English language arts classrooms or to continue standard practice as a comparison condition. Because students are nested within classrooms and classrooms within schools, the authors used hierarchical linear modeling to account for that nesting structure and produce valid estimates of RULER's effect.
 
-\textbf{Measures:} Trained blind observers rated classroom climate on teacher--student warmth, student--student connection, student autonomy/leadership, and teacher responsiveness to student interests (Rivers et al., 2013).
+\textbf{Measures \& findings:} Trained and independent observers rated classroom climate using a structured observation tool with subscales for teacher--student warmth, student--student connection, student autonomy and leadership, and teacher responsiveness to student interests---without knowing which condition a classroom was assigned to, reducing observer bias. Compared to control classrooms, RULER classrooms scored significantly higher on teacher--student warmth and connectedness, student opportunities for autonomy and leadership, and teacher focus on student motivation rather than only task completion (Rivers et al., 2013). These differences were not explained by pre-existing school-level differences because randomization controlled for selection bias.
 
-\textbf{Findings:} RULER classrooms scored significantly higher on teacher--student warmth and connectedness, student autonomy and leadership opportunities, and teacher focus on student motivation over task compliance---effects large enough to detect through structured observation across a full school year (Rivers et al., 2013).
+\textbf{Interpretation:} The authors argue that classroom climate is a key mechanism through which SEL programs promote positive youth development (Rivers et al., 2013). A climate that is warmer, more autonomy-supportive, and more responsive to student interests creates conditions for students to engage, take risks, and ask for help. Measuring climate through structured observation rather than self-report strengthens confidence that changes reflect actual instructional behavior, not just teachers' beliefs about themselves.
 
 \begin{TakeawayBox}
-\footnotesize\textbf{Study snapshot:} 62 urban schools · randomized design · blind observers · multi-level modeling · measurably warmer relationships, greater student autonomy, stronger teacher responsiveness (Rivers et al., 2013).
+\textbf{Study snapshot.} Sixty-two urban schools, randomized design, trained observers, multi-level modeling. RULER classrooms showed measurably warmer relationships, greater student autonomy, and stronger teacher responsiveness---effects large enough to be detected through structured observation across an entire school year (Rivers et al., 2013).
 \end{TakeawayBox}
-\vspace{2pt}
 
-% ── REFLECTION ──────────────────────────────────────────────────────────
 \section{What I Learned and Why It Matters}
 
-\footnotesize
-\textbf{SEL as access, not just wellness:} This article reframed SEL from a lesson-delivery model to a climate-design model. For students with ADHD, anxiety, chronic illness, or trauma histories, the emotional quality of the environment determines whether learning is even possible (Rivers et al., 2013). RULER's changes to teacher warmth and responsiveness function as Universal Design for Learning: they reduce the cognitive and emotional load students with disabilities carry into every lesson (Brackett et al., 2012; CASEL, n.d.). EQUITAS asks this question of every tool: does it create fair, multiple pathways---or demand that students perform normalcy as the price of access?
+\begin{ReflectionBox}
+\textbf{Learning and reflection.} This article shifted my understanding of SEL from a lesson-delivery model to a climate-design model---and that reframing maps directly onto the Puzzle Plan's core principle: environment is the intervention (Garcia Bautista, 2025). RULER did not just teach students about emotions; it changed what the classroom felt and functioned like (Rivers et al., 2013). That is what the Puzzle Plan attempts in every lesson design decision, and it is what EQUITAS holds diagnostic and instructional systems accountable for: not just whether a tool is technically accurate, but whether it creates conditions where marginalized students are seen, heard, and positioned as capable.
+\end{ReflectionBox}
 
-\textbf{Climate as bridge between SEL and disability supports:} When a teacher uses emotion language daily and co-creates classroom norms, a student can say ``I am overwhelmed'' without being marked as \textit{the student with the IEP}. RULER's infusion model---SEL inside ELA, not extracted from it---is a template for how differentiation can be invisible rather than stigmatizing (Rivers et al., 2013). This connects directly to IDEA's mandate for least restrictive environments and positive behavioral supports (Individuals with Disabilities Education Act, 34 C.F.R.\ \S\S\ 300.43, 300.320, 300.321).
+\textbf{SEL as access, not just wellness:} The most important thing this article demonstrates is that a consistently warm, autonomy-supportive, and emotionally literate classroom is not a nice-to-have feature. For students with ADHD, depression, anxiety, autism, chronic illness, trauma histories, or complex intersecting identities, the emotional quality of the environment determines whether learning is even possible (Brackett et al., 2012; Rivers et al., 2013). Years of academic struggle---where ADHD and an undiagnosed chronic illness created a vicious cycle of poor performance, shame, depressive episodes, and avoidance---were not failures of motivation. They were failures of environment. Rigid assessment formats with no backtracking, unclear structure, and no flexibility for how a neurodivergent brain works transformed competence into collapse. RULER's changes to teacher warmth and responsiveness are, from that perspective, a form of Universal Design for Learning: they reduce the cognitive and emotional load that students with disabilities carry into every lesson (CASEL, n.d.). EQUITAS asks exactly this question about every tool and task: does it create multiple, fair pathways, or does it demand that students perform normalcy as the price of access?
 
-\textbf{Implementation equity through an EQUITAS lens:} A warm climate alone does not undo structural barriers for CLD students, English language learners, or students experiencing housing instability. SEL must be paired with culturally sustaining relationship-building and material support (CASEL, n.d.; Garcia Bautista, 2025). RULER is only as equitable as the consistency and cultural responsiveness of its implementation.
+\textbf{Climate as bridge between SEL and disability supports:} This study also clarifies that SEL and disability support do not have to operate in separate tracks. When a teacher uses emotion language daily, co-creates classroom norms, and responds to student interests as a routine practice, the result is a classroom where a student can say ``I am overwhelmed'' or ``I need a break'' without being marked as \textit{the student with the IEP} (Rivers et al., 2013). That normalization matters because neurodivergent and disabled students often report that the stigma of being singled out for support is itself a barrier to using those supports---a dynamic where being identified as different compounds the distress of already struggling. RULER's infusion model---integrating SEL into English language arts rather than treating it as a weekly feelings lesson---is a powerful model for how Puzzle Plan design principles work: every lesson is an opportunity to build the relational infrastructure that makes differentiation invisible, not stigmatizing (Garcia Bautista, 2025).
 
-\textbf{Connection to transition and adult readiness:} Students who practice autonomy, help-seeking, and co-regulation in school are better positioned to self-advocate in college and workplace settings. Transition planning must account for the relational environment, not only skills and services (Individuals with Disabilities Education Act, 34 C.F.R.\ \S\ 300.43).
+\textbf{Implementation quality and equity:} Even a well-designed, evidence-based program can be reduced to surface compliance if teachers use the emotion vocabulary only as a classroom management tool or if the program is delivered inconsistently across CLD student populations (CASEL, n.d.; Rivers et al., 2013). A student who is a recent English language learner, a student whose family communicates distress differently from the dominant culture, or a student experiencing housing instability may need more than warmth and autonomy in the classroom. SEL has to be paired with structural responsiveness, culturally sustaining relationship-building, and material support. The Puzzle Plan builds in this layer explicitly: each piece of the environment must be interrogated through the intersectional lens of who it serves and who it invisibilizes (Garcia Bautista, 2025).
+
+\textbf{Connection to transition and adult readiness:} Students with disabilities who spend their K--12 years in classrooms where help-seeking is normalized, where autonomy is practiced, and where emotional literacy is a shared language are better positioned to self-advocate in college, workplace, and community settings (Individuals with Disabilities Education Act, 34 C.F.R.\ \S\ 300.43; Rivers et al., 2013). Transition planning focuses on skills and services, but it often underestimates the role of the relational environment in building the confidence to use those skills. A student who has experienced years of co-regulation, warm correction, and responsive adult relationships is more likely to ask for accommodations at a disability services office or disclose a health need to an employer than a student whose school experience was characterized by surveillance and compliance management.
 
 \begin{ReflectionBox}
-\footnotesize\textbf{Closing reflection:} The difference between a school that \textit{accommodates} disability and one that \textit{designs} for it is the difference between reactive patch-work and proactive architecture. SEL at the classroom climate level---as Rivers et al.\ (2013) demonstrate empirically---is one of the most scalable tools we have for that proactive design. Students who look like me, and lived like I did, should not have to wait years to be believed or to belong.
+The RULER study gave language for something articulated across every course in this program, in the Puzzle Plan work, and in the EQUITAS framework: the difference between a school that \textit{accommodates} disability and a school that \textit{designs} for it (Garcia Bautista, 2025). Accommodation is reactive; design is proactive. SEL, when implemented at the classroom climate level, is one of the most scalable, evidence-backed tools we have for proactive, environment-level inclusive design (Rivers et al., 2013)---and for making sure that students who look like me, and live like I did, do not have to wait years to be believed.
 \end{ReflectionBox}
-\vspace{3pt}
 
-% ── REFERENCES ──────────────────────────────────────────────────────────
+\newpage
 \section*{References}
-\footnotesize\RaggedRight
+\small
 Brackett, M.\ A., Rivers, S.\ E., Reyes, M.\ R., \& Salovey, P.\ (2012). Enhancing academic performance and social and emotional competence with the RULER feeling words curriculum. \textit{Learning and Individual Differences, 22}(2), 218--224. \url{https://doi.org/10.1016/j.lindif.2010.10.002}
 
 CASEL. (n.d.). \textit{What is the CASEL framework?} \url{https://casel.org/fundamentals-of-sel/what-is-the-casel-framework/}
+
+ED452C. (n.d.). \textit{Journal Article Review directions and rubric}. Course handout.
 
 Garcia Bautista, P.\ Z. (2025). \textit{EQUITAS: Equity-Quantified Unbiased Intelligence Through Algorithmic Solutions---A framework for fairness-aware diagnostics in CLD populations}. Unpublished framework, Rochester Institute of Technology.
 
 Individuals with Disabilities Education Act, 34 C.F.R.\ \S\S\ 300.43, 300.320, 300.321. \url{https://sites.ed.gov/idea/regs/}
 
 Rivers, S.\ E., Brackett, M.\ A., Reyes, M.\ R., Elbertson, N.\ A., \& Salovey, P.\ (2013). Improving the social and emotional climate of classrooms: A clustered randomized controlled trial testing the RULER Approach. \textit{Prevention Science, 14}(1), 77--87. \url{https://doi.org/10.1007/s11121-012-0305-2}
+
+Ter-Minassian, H., Wong, J., Lekadir, K., \& Baams, L.\ (2022--2025). \textit{Fairness-aware machine learning for CLD adolescent diagnostic equity: A cross-study synthesis} [Multiple peer-reviewed sources synthesized across ED415 and IDAI700 research portfolio]. Rochester Institute of Technology.
 
 \end{document}
