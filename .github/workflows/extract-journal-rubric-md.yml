@@ -1,0 +1,93 @@
+name: Extract Journal Article Review Rubric to Markdown
+
+on:
+  push:
+    paths:
+      - '.github/workflows/extract-journal-rubric-md.yml'
+      - 'assignments/Journal Article Review Directions and Rubric (2).pdf'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract-md:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install PDF tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+
+      - name: Extract PDF text and convert to Markdown
+        run: |
+          PDF='assignments/Journal Article Review Directions and Rubric (2).pdf'
+          OUT='assignments/Journal Article Review Directions and Rubric.md'
+          TMP='journal_article_review_rubric_extracted.txt'
+
+          pdftotext -layout "$PDF" "$TMP"
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          src = Path('journal_article_review_rubric_extracted.txt')
+          out = Path('assignments/Journal Article Review Directions and Rubric.md')
+          text = src.read_text(encoding='utf-8', errors='replace')
+          text = text.replace('\x0c', '\n\n---\n\n')
+          lines = [re.sub(r'[ \t]+$', '', line) for line in text.splitlines()]
+
+          cleaned = []
+          blank = 0
+          for line in lines:
+              if line.strip():
+                  blank = 0
+                  cleaned.append(line.rstrip())
+              else:
+                  blank += 1
+                  if blank <= 1:
+                      cleaned.append('')
+
+          body = '\n'.join(cleaned).strip()
+
+          md = f"""# Journal Article Review Directions and Rubric
+
+> Source converted from `assignments/Journal Article Review Directions and Rubric (2).pdf` using `pdftotext -layout` in GitHub Actions. Review the PDF for final visual formatting if needed.
+
+## Extracted Rubric Text
+
+```text
+{body}
+```
+
+## Working Assignment Checklist
+
+Use this section to evaluate what we have and what we still need once an article is selected.
+
+- [ ] Identify the required article type/topic from the directions.
+- [ ] Confirm the article is scholarly/peer-reviewed if required.
+- [ ] Record full APA citation.
+- [ ] Summarize the article's purpose, research question, method, and findings.
+- [ ] Connect the article to ED452C course themes.
+- [ ] Include a critical evaluation, not only a summary.
+- [ ] Discuss classroom/teaching implications.
+- [ ] Address every rubric category.
+- [ ] Check length, formatting, citation, and submission requirements.
+"""
+          out.write_text(md, encoding='utf-8')
+          PY
+
+      - name: Commit Markdown extraction
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 'assignments/Journal Article Review Directions and Rubric.md'
+          if git diff --cached --quiet; then
+            echo 'No Markdown changes to commit.'
+          else
+            git commit -m 'Convert journal article review rubric to Markdown'
+            git push
+          fi
